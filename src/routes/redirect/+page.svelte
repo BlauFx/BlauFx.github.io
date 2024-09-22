@@ -23,7 +23,7 @@
 		for (const element in info) {
 			if (info[element].text == str) {
 				if (browser) {
-					wait(2000, info[element]);
+					wait(0, info[element]);
 				}
 				break;
 			}
